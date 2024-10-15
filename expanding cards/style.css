@@ -57,13 +57,14 @@ body{
 }
 
 
-@media(max-width: 480px){
+@media (max-width: 480px) {
     .container{
-        width:100vw
+        width:100vw;
     }
 
     .panel:nth-of-type(4),
-    .panel:nth-of-type(4){
+    .panel:nth-of-type(5),
+    .panel:nth-of-type(6) {
  display: none;
     }
 }
